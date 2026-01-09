@@ -1,0 +1,21 @@
+{
+  "task": "Va sur https://instant-b.fr fait une demande de devis pour une mariage de 300 personnes le 27 juin 2026 au chateau de versailles, tu mets mon numéro 0665399066 et mon mail tedliner@gmail.com ",
+  "config": {
+    "llm": {
+      "provider": "ollama",
+      "model_name": "qwen2.5:7b",
+      "temperature": 0.6,
+      "base_url": "http://localhost:11434",
+      "use_vision": true
+    },
+    "browser": {
+      "headless": false,
+      "window_width": 1280,
+      "window_height": 1100
+    },
+    "agent": {
+      "max_steps": 100,
+      "max_actions": 10
+    }
+  }
+}
